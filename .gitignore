@@ -1,0 +1,39 @@
+# ignore system files
+.DS_Store
+.idea
+thumbs.db
+__MACOSX
+._*
+.*swp
+.*swo
+*.iml
+
+# ignore composer files
+composer.phar
+
+# ignore Aptana and Eclipse project files
+.project
+
+# ignore Eclipse-specific files
+/.externalToolBuilders/
+/.settings/
+/.buildpath
+
+# ignore JavaScript source maps
+mix-manifest.json
+
+# ignore PHP symbol map
+__IDE_SYMBOLS__.php
+.phpstorm.meta.php
+
+# ignore custom php-cs-fixer configuration file
+/.php_cs
+
+# ignore php-cs-fixer cache file
+/.php_cs.cache*
+
+# ignore Visual Code project files
+.vscode
+
+# Ignore vendor file
+/vendor
